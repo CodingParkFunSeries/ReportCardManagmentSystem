@@ -20,5 +20,5 @@
        2.2.2 Confirm Marks
   2.3 Academic achievement addition request     
   2.4 Extra-curricular achievement addition request
-  2.5 Request for Information modification.
+  2.5 Request for Information modification
   
