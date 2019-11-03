@@ -57,7 +57,9 @@
       - Option of direct uploading the data in the excel format (**only if we can do**).
       - Option of different analysis like for individual student or overall performance of all students in that subject.
       - A list of overall top 10 scorers in that subject (may be in tabular form or in the form of a plot).
+      
     
+   * For **_admin_** we have sections to add or delete students, teachers or subjects. 
  
  
   
