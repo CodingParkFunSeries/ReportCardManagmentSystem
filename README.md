@@ -27,6 +27,16 @@ Expected learning - Github basic commands and how to write md files.
 #### Task 2
 Select MVP features to keep application simplistic so that everyone has an efficient learning and new students can refer it in future for learning.
 
+Per team member should create at least one diagram of the below
+- Activity diagram
+- Sequence diagram
+- Flow Diagram
+- Class diagram
+
+Tool reference
+[Web Sequence Diagram](https://www.websequencediagrams.com)
+[Draw.io](https://www.draw.io)
+
 ### DAY 2
 
 #### Task 1
