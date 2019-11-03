@@ -1,4 +1,4 @@
-#**1.Teacher Login**
+#1.Teacher Login
    
    1.1 Search Student(By Name)
    
@@ -27,7 +27,7 @@
        1.4.3 Extra-Curricular Achievement
 
 
-##**2.student Login**
+##2.student Login
 
    2.1 Display Attendance
 
