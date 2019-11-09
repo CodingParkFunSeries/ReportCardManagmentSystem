@@ -134,7 +134,7 @@ Body:
 }
 ```
 
-- Delete a batch 
+- Delete a student 
 ```
 DELETE - /schools/{schoolId}/batches/{batchId}/students/{studentId}
 ```
@@ -172,5 +172,35 @@ DELETE - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/subjects/{
 ```
 
 ## Exam 
+
+- Get all exams   
+```
+GET - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/exams
+```
+
+- Get exam
+```
+GET - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/exams/{examId}
+```
+
+- Create exam
+```
+POST - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/exams
+
+Body:
+{
+    "id": 1,
+    "name": "Test",
+    "totalMarks": 100,
+    "schoolId": 1,
+    "semesterId": 1,
+    "batchId": 1
+}
+```
+
+- Delete a exam 
+```
+DELETE - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/exams/{examId}
+```
 
 ## Marks
