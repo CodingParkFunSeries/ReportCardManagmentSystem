@@ -1,5 +1,10 @@
 # RMS REST APIs
 
+## Base URL
+```
+https://ajyarms.azurewebsites.net/
+```
+
 ##  School
 
 - Get all schools   
