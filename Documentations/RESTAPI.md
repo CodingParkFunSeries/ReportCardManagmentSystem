@@ -2,7 +2,7 @@
 
 ## Base URL
 ```
-https://ajyarms.azurewebsites.net/
+
 ```
 
 ##  School
@@ -35,6 +35,37 @@ DELETE - /schools/{schoolId}
 
 
 ##  Semester
+
+- Get all semesters   
+```
+GET - /schools/{schoolId}/semesters
+```
+
+- Get semester
+```
+GET - /schools/{schoolId}/semesters/{semesterId}
+```
+
+- Create semsester
+```
+POST - //schools/{schoolId}/semesters
+
+Body:
+{
+    "id": 1,
+    "name": "Test",
+    "annualYear": "2019/20",
+    "startDate": "2019-04-01",
+    "endDate": "2019-03-31",
+    "isActive": true,
+    "schoolId": 1
+}
+```
+
+- Delete a school 
+```
+DELETE - /schools/{schoolId}/semesters/{semesterId}
+```
 
 ##  Batch
 
