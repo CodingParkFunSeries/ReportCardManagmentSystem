@@ -100,6 +100,45 @@ DELETE - /schools/{schoolId}/batches/{batchId}
 
 ## Student
 
+- Get all students   
+```
+GET - /schools/{schoolId}/batches/{batchId}/students
+```
+
+- Get student
+```
+GET - /schools/{schoolId}/batches/{batchId}/students/{studentId}
+```
+
+- Create student
+```
+POST - /schools/{schoolId}/batches/{batchId}/students
+
+Body:
+{
+    "id": 1,
+    "name": "Test",
+    "birthDate": null,
+    "address": null,
+    "email": null,
+    "nationality": null,
+    "enrollmentDate": null,
+    "zipCode": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "schoolId": 1,
+    "batchId": 1,
+    "mobileNumber": null,
+    "gender": null
+}
+```
+
+- Delete a batch 
+```
+DELETE - /schools/{schoolId}/batches/{batchId}/students/{studentId}
+```
+
 ## Subject
 
 ## Exam 
