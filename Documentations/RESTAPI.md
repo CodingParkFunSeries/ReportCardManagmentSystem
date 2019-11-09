@@ -62,12 +62,41 @@ Body:
 }
 ```
 
-- Delete a school 
+- Delete a semester 
 ```
 DELETE - /schools/{schoolId}/semesters/{semesterId}
 ```
 
-##  Batch
+##  Batch (Class)
+
+
+- Get all batches   
+```
+GET - /schools/{schoolId}/batches
+```
+
+- Get batch
+```
+GET - /schools/{schoolId}/batches/{batchId}
+```
+
+- Create batch
+```
+POST - //schools/{schoolId}/batches
+
+Body:
+{
+    "id": 1,
+    "schoolId": 1,
+    "className": "test",
+    "isActive": false
+}
+```
+
+- Delete a batch 
+```
+DELETE - /schools/{schoolId}/batches/{batchId}
+```
 
 ## Student
 
