@@ -141,6 +141,36 @@ DELETE - /schools/{schoolId}/batches/{batchId}/students/{studentId}
 
 ## Subject
 
+- Get all subjects   
+```
+GET - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/subjects
+```
+
+- Get subject
+```
+GET - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/subjects/{subjectId}
+```
+
+- Create subject
+```
+POST - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/subjects
+
+Body:
+{
+    "id": 1,
+    "name": "Test",
+    "description": null,
+    "schoolId": 1,
+    "semesterId": 1,
+    "batchId": 1
+}
+```
+
+- Delete a subject 
+```
+DELETE - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/subjects/{subjectId}
+```
+
 ## Exam 
 
 ## Marks
