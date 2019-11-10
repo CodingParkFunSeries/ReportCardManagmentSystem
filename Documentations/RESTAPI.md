@@ -204,3 +204,28 @@ DELETE - /schools/{schoolId}/semesters/{semesterId}/batches/{batchId}/exams/{exa
 ```
 
 ## Marks
+
+- Create Marks
+
+```
+POST - /schools/{schoolId}/semesters/{semesterId}/exams/{examId}/students/{studentId}/marks
+
+body
+    {
+        "id": 1,
+        "schoolId": 1,
+        "semesterId": 1,
+        "batchId": 1,
+        "subjectId": 1,
+        "studentId": 1,
+        "examId": 1,
+        "marks": 30
+    }
+```
+
+- Get all marks of the student
+```
+GET - /schools/{schoolId}/semesters/{semesterId}/exams/{examId}/students/{studentId}/marks
+```
+
+DELETE and UPdate - Not implemented
